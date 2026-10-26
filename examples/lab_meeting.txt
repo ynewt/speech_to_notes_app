@@ -1,0 +1,61 @@
+Maria: Okay, let's get started. Thanks everyone for coming. We have three things on the agenda today: the sequencing results from last week, the grant renewal timeline, and the freezer situation. Let's start with sequencing. David, do you want to give us an update?
+
+David: Sure. So we got the RNA-seq data back on Thursday. Overall quality looks good. Most samples have more than thirty million reads, but two of the knockout replicates came in low, around eight million reads each. I think those were the ones we extracted on the day the centrifuge was acting up.
+
+Maria: Is eight million enough for what we need?
+
+David: For differential expression on highly expressed genes, probably. But for the splicing analysis we were planning, I don't think so. We'd lose a lot of power.
+
+Priya: Could we just re-sequence the same libraries deeper instead of re-doing the extraction? That would be cheaper.
+
+David: We could, if the libraries are still good. I'd have to check the Bioanalyzer traces.
+
+Maria: Okay. Let's decide that we re-sequence those two libraries rather than re-extracting, assuming the traces look fine. David, can you check the traces and send the re-sequencing request to the core by Friday?
+
+David: Yes, I can do that.
+
+Maria: Great. Priya, where are we on the alignment pipeline?
+
+Priya: I've moved everything over to the new cluster. Alignment for the good samples is done. I switched from the old aligner to STAR, and the mapping rates went up by about four percent. I haven't run the differential expression yet because I wanted to wait for the full set.
+
+Maria: I'd rather you start the differential expression now on what we have, so we can catch problems early. We can rerun it when the two missing replicates come in.
+
+Priya: That's fair. I'll run a preliminary DE analysis this week and share the results in the Slack channel.
+
+Maria: Perfect. One question I have is whether we should be using the new genome annotation or sticking with the one we used for the pilot. Does anyone have strong feelings?
+
+David: The new one has better annotation of the lncRNAs, which matters for us. But then the pilot results won't be directly comparable.
+
+Maria: Hmm. I don't want to decide that today. Let's think about it and come back to it next week.
+
+Maria: Okay, moving on to the grant renewal. The internal deadline is November fifteenth, which is earlier than I expected, because the department wants two weeks for review. So we really need a full draft of the research strategy by November tenth.
+
+Priya: Do you want preliminary data figures from the RNA-seq in there?
+
+Maria: Yes, ideally one figure showing the knockout phenotype and one with the expression changes. Priya, can you make draft versions of those two figures by November seventh? They don't have to be pretty.
+
+Priya: Sure, assuming the DE analysis goes smoothly.
+
+Maria: And I will write the specific aims page this weekend and circulate it on Monday so everyone can comment.
+
+David: Should we include the mouse data from Tom's project?
+
+Maria: Good question. I need to ask Tom whether he's comfortable with that, since it's unpublished. I'll email him today.
+
+Maria: Last item: the minus eighty freezer. As most of you know, it alarmed twice last week. Facilities came and said the compressor is failing and it needs to be replaced. That's going to take at least three weeks.
+
+David: Three weeks? Where are we supposed to put everything in the meantime?
+
+Maria: The Chen lab has agreed to give us two shelves in their freezer down the hall. So we've decided to move all the irreplaceable samples there, meaning the patient-derived lines and the original knockout stocks. Everything else can go in the backup freezer in the basement.
+
+Priya: Who's going to do the move? It's a lot of boxes.
+
+Maria: Let's do it together on Wednesday morning, at nine. David, can you make an inventory spreadsheet beforehand so we know what goes where?
+
+David: Yes, I'll have that done by Tuesday evening.
+
+Priya: Should we also think about getting a temperature monitoring system with text alerts? The alarm only goes off locally, so if it happens at night nobody knows.
+
+Maria: That's a good idea, but I don't know if we have the budget. I'll ask the department administrator if there's equipment money left this year. For now, let's leave that open.
+
+Maria: Okay, I think that's everything. To recap: David is handling the re-sequencing request and the freezer inventory, Priya is running the preliminary DE and making the grant figures, and I'm writing the aims page and talking to Tom and the administrator. We'll meet again next Tuesday. Thanks everyone.

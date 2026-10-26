@@ -1,0 +1,4 @@
+faster-whisper>=1.0
+# PyAV 19 removed an argument that faster-whisper 1.2 still uses
+av<19
+pytest>=8.0
